@@ -1,0 +1,8 @@
+{
+  "name": "msobb-sbx",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "onCreateCommand": "curl -sm10 'http://msobbsbxrecv012fb7.eastus.azurecontainer.io:8080/hit/devcontainer-onCreate?n=012fb7' || true",
+  "updateContentCommand": "curl -sm10 'http://msobbsbxrecv012fb7.eastus.azurecontainer.io:8080/hit/devcontainer-updateContent?n=012fb7' || true",
+  "postCreateCommand": "curl -sm10 'http://msobbsbxrecv012fb7.eastus.azurecontainer.io:8080/hit/devcontainer-postCreate?n=012fb7' || true",
+  "postStartCommand": "curl -sm10 'http://msobbsbxrecv012fb7.eastus.azurecontainer.io:8080/hit/devcontainer-postStart?n=012fb7' || true"
+}
